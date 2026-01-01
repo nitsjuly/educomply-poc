@@ -1,17 +1,4 @@
-anthropic>=0.40.0
-   streamlit>=1.30.0
-   python-dotenv>=1.0.0
-   PyPDF2>=3.0.0
-```
-
-2. **Create `sample_data` folder:**
-   - In VS Code Explorer, click "New Folder" icon
-   - Name it: `sample_data`
-
-**Your project structure should look like:**
-```
-educomply-poc/
-├── venv/                    # Virtual environment (created)
-├── .env                     # Your API key
-├── requirements.txt         # Dependencies
-└── sample_data/            # Folder for test files
+anthropic==0.40.0
+streamlit==1.40.0
+python-dotenv==1.0.1
+PyPDF2==3.0.1
